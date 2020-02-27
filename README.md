@@ -1,4 +1,4 @@
-# node-red-contrib-wago
+# node-red-contrib-EL
 [Node-RED](http://nodered.org/) nodes to el250 Modules. 
 
 A Bunch Of Text
