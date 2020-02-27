@@ -1,0 +1,72 @@
+<script type="text/javascript">
+    RED.nodes.registerType('EL250_INPUT',{
+        category: 'IOT Chronos',
+        color: '#99ff33',
+        defaults: {
+             name: {value:"EL250_INPUT"}
+			,entrada: {value:"0"}
+			,topic: {value:"Entrada 1"}
+			,end: {value:"0"}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "el250.png",
+        label: function() {
+            return this.name||"EL250_INPUT";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="EL250_INPUT">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+	
+		<div class="form-row">
+        <label for="node-input-entrada"><i class="icon-tag"></i>Entrada</label>
+        <select type="text" id="node-input-entrada" placeholder="entrada">
+			<option value="15">Entrada 1</option>
+			<option value="14">Entrada 2</option>
+			<option value="13">Entrada 3</option>
+			<option value="12">Entrada 4</option>
+			<option value="11">Entrada 5</option>
+			<option value="10">Entrada 6</option>
+			<option value="9">Entrada 7</option>
+			<option value="8">Entrada 8</option>
+			<option value="7">Entrada 9</option>
+			<option value="6">Entrada 10</option>
+		
+			
+		</select>
+    </div>
+	
+	    <div class="form-row">
+        <label for="node-input-end"><i class="icon-tag"></i>END</label>
+        <select type="text" id="node-input-end" placeholder="end">
+			<option value="0">END 1</option>
+			<option value="1">END 2</option>
+			<option value="2">END 3</option>
+			<option value="3">END 4</option>
+			<option value="4">END 5</option>
+			<option value="5">END 6</option>
+			<option value="6">END 7</option>
+			<option value="7">END 8</option>					
+		</select>
+    </div>
+	
+	
+	
+    <div class="form-row">
+        <label for="node-input-topic"><i class="icon-tag"></i> Topic</label>
+        <input type="text" id="node-input-topic" placeholder="Topic">
+    </div>
+	
+	
+	
+</script>
+ 
+<script type="text/x-red" data-help-name="EL250_INPUT">
+    <p>A MODULO IO .<br/>
+    </p>
+</script>

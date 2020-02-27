@@ -1,0 +1,13 @@
+{
+    "name"         : "node-red-contrib-EL250_INPUT",
+    "version"      : "0.0.2",
+    "description"  : "node-red EL250_INPUT",
+    "dependencies": {
+    },
+    "keywords": [ "node-red" ],
+    "node-red"     : {
+        "nodes": {
+            "sample": "EL250_INPUT/EL250_INPUT.js"
+        }
+    }
+}
